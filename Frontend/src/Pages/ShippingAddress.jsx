@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-// import { Address } from "../Redux/Cart/action";
+// import { Address } from "../Redux/Cart/action"; 
 import { fetchAddress } from "../Redux/Add/action";
 import { useToast } from "@chakra-ui/react";
 
@@ -33,7 +33,7 @@ const ShippingAddress = () => {
 
   const handleAddress = () => {
     console.log("address", address);
-    fetch("http://localhost:8080/address", {
+    fetch("https://backend-farfech.vercel.app/address", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -59,6 +59,7 @@ const ShippingAddress = () => {
   //   navigate("/payment");
   // };
 
+
   const options = {
     key: "rzp_test_HJG5Rtuy8Xh2NB",
     amount: total_prize * 100, //  = INR 1
@@ -78,8 +79,8 @@ const ShippingAddress = () => {
     },
     prefill: {
       name: "Manish Verma",
-      contact: "9517197442",
-      email: "javed233638@demo.com",
+      contact: "7355119427",
+      email: "manish119427@gmail.com",
     },
     notes: {
       address: "some address",

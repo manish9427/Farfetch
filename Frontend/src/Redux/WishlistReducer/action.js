@@ -21,7 +21,7 @@ export const addToWishlist = (token, productId, userId) => (dispatch) => {
     .post(url, config)
     .then((res) => {
       console.log(res);
-      //   dispatch({ type: ADDTO_WISHLIST_SUCCESS, payload: res.data });
+        // dispatch({ type: ADDTO_WISHLIST_SUCCESS, payload: res.data });
     })
     .catch((err) => {
       console.log(err);
