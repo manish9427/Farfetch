@@ -89,7 +89,7 @@ function Navbar() {
                   fontWeight: isActive.isActive ? "bold" : null,
                 })}
             >
-              Women
+              Womenswear
             </NavLink>
             <NavLink
               to="/mens"
@@ -99,7 +99,7 @@ function Navbar() {
                 }
               }}
             >
-              Men
+              Menswear
             </NavLink>
             <NavLink
               to="/kids"
@@ -110,7 +110,7 @@ function Navbar() {
                 }
               }}
             >
-              Kids
+              Kidswear
             </NavLink>
           </div>
           <div>

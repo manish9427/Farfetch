@@ -11,6 +11,9 @@ import style from "./Css/Home.module.css";
 import { TbHanger, TbQuestionMark, TbMessageDots } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import Form from "../Components/SingleProduct/Form";
+import Womenswear from "./homepageImages/Womenswear.png";
+import Menswear from "./homepageImages/Menswear.png";
+import Kidswear from "./homepageImages/Kidswear.png";
 
 const Homepage = () => {
   return (
@@ -19,28 +22,19 @@ const Homepage = () => {
       <div className={style.images}>
         <div className={style.container}>
           <Link to="/womens">
-            <img
-              src="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/1358584/data/35f063c3600dc83729be3af4597b6349/16x9_three-columns/480/data.png"
-              alt="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/1358584/data/35f063c3600dc83729be3af4597b6349/16x9_three-columns/480/data.png"
-            />
-            <div className={style.center}>SHOP WOMEN</div>
+          <img src={Womenswear} alt={Womenswear} />
+            <div className={style.center}>WOMENSWEAR</div>
           </Link>
         </div>
         <div className={style.container}>
           <Link to="/mens">
-            <img
-              src="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/1358582/data/db104369ad2687b797128ca8a9fa8fbf/16x9_three-columns/480/data.png"
-              alt="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/1358582/data/db104369ad2687b797128ca8a9fa8fbf/16x9_three-columns/480/data.png"
-            />
-            <div className={style.center}>SHOP MEN</div>
+          <img src={Menswear} alt={Menswear} />
+            <div className={style.center}>MENSWEAR</div>
           </Link>
         </div>
         <div className={style.container}>
           <Link to="kids">
-            <img
-              src="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/3485568/data/56296828f1ebd020fd4f3eb3fdd3bff7/16x9_three-columns/480/data.png"
-              alt="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/3485568/data/56296828f1ebd020fd4f3eb3fdd3bff7/16x9_three-columns/480/data.png"
-            />
+            <img src={Kidswear} alt={Kidswear} />
             <div className={style.center}>KIDSWEAR</div>
           </Link>
         </div>
