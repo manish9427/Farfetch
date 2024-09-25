@@ -31,3 +31,8 @@ https://backend-farfech.vercel.app/
 /cart/get      -GET {pass token from the Headres}
 /cart/add      -POST  {pass toke from the Headers } {pass productId from payload}
 /cart/delete/:cardId      -DELETE  {pass token from the Headres} {pass cartId from the params}
+
+
+// nvm list
+// nvm install 16.0.0
+// nvm use 16.0.0

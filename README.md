@@ -2,10 +2,6 @@
 
 Farfetch is an E-Commerce website anyone can buy products easily from our website.
 
-# Farfetch.com-Clone
-
-Hello Everyone, my name is Manish Verma and I would like to share my one of the fully functional and fully responsive E-Commerce website, this time Masai School give me the Farfetch website to clone as a part of our construct week, and yes, this is a replicate of the Farfetch Website.
-
 Have a look ⬇️
 
 ## Tech Stack
@@ -20,7 +16,7 @@ Have a look ⬇️
 
 ## Live Link
 
-- [Deploy_Link](https://farfetchclone.netlify.app/)
+- [Deploy_Link](https://farfetch-eight.vercel.app/)
 
 ## Features
 
